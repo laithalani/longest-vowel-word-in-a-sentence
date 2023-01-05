@@ -1,13 +1,21 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Longest Vowel</title>
+    <title>Longest Vowel Web</title>
     <style>
         body {
             background-color: rgb(166, 236, 237);
+            display: flex;
+            flex-direction: column;
+            max-width: 720px;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            padding: 20px;
         }
         h1{
             font-size: 1rem;
@@ -19,13 +27,13 @@
             padding: 5px;
         }
         .result {
-            color: rgb(18, 63, 197);
+            color: rgb(18, 63, 198);
             padding: 5px;
         }
     </style>
 </head>
 <body>
-    <h1>longest vowel word in a sentence</h1>
+ <h1>longest vowel word in a sentence</h1>
     <input class="input" placeholder="type sentence here..." type="text" name="" id="input" onkeyup=" k(this.value)">
     <section>
         <a class="result">Result:</a>
